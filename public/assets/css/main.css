@@ -1,0 +1,535 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.heroImage {
+    background: url(../../assets/images/hero.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heroImage h2 {
+    color: #FFF;
+    font-family: 'KoHo', sans-serif;
+}
+.heroImageEjerciciosVivenciales {
+    background: url(../../assets/images/hero-vivenciales.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heroImageEjerciciosVivenciales h2 {
+    color: #FFF;
+    font-family: 'KoHo', sans-serif;
+}
+.heroImageTecnologiaInnovadora {
+    background: url(../../assets/images/hero-tecnologia.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heroImageTecnologiaInnovadora h2 {
+    color: #FFF;
+    font-family: 'KoHo', sans-serif;
+}
+.contentCentral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contentCentral h2, p {
+    font-weight: 300;
+}
+.contentCentral a {
+    border: solid 1px white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+}
+.accesos {
+    height: auto;
+}
+.ejerciciosVivenciales {
+    background: url(../../assets/images/acceso1.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 448px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ejerciciosVivenciales h3 {
+    color: #000;
+    font-size: 25px;
+    font-family: 'KoHo', sans-serif;
+    font-weight: 800;
+}
+.ejerciciosVivenciales a {
+    border: solid 1px #000;
+    color: #000;
+    text-decoration: none;
+    padding: 3px 20px 3px 20px;
+    border-radius: 100px;
+}
+.ejerciciosVivenciales a:hover {
+    background-color: #FFF;
+    color: #000;
+    text-decoration: none;
+    padding: 3px 20px 3px 20px;
+    border-radius: 100px;
+    border: solid 1px #FFF;
+}
+.tecnoclogiaInnovadora {
+    background: url(../../assets/images/acceso2.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 448px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tecnoclogiaInnovadora h3 {
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'KoHo', sans-serif;
+    font-weight: 800;
+}
+.tecnoclogiaInnovadora a {
+    border: solid 1px #FFF;
+    color: #FFF;
+    text-decoration: none;
+    padding: 3px 20px 3px 20px;
+    border-radius: 100px;
+}
+.tecnoclogiaInnovadora a:hover {
+    background-color: #FFF;
+    color: #000;
+    text-decoration: none;
+    padding: 3px 20px 3px 20px;
+    border-radius: 100px;
+    border: solid 1px #FFF;
+}
+.columnasAccesos img {
+    height: auto;
+    width: 100%;
+}
+.columnasAccesos, .areaClinica p {
+    color: #333;
+}
+.columnasAccesos, .capacitacion p {
+    color: #333;
+}
+.columnasAccesos, .cursosDestacados p {
+    color: #333;
+}
+.psiCowork {
+    background: url(../../assets/images/psicoworkhero.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 569px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.psiCowork h2 {
+    color: #FDB846;
+    font-size: 100px;
+}
+.psiCowork h3 {
+    color: #FFF;
+    font-weight: 100;
+}
+.psiCowork a {
+    border: solid 1px #FFF;
+    color: #FFF;
+    padding: 3px 20px 3px 20px;
+    border-radius: 100px;
+}
+.psiCowork a:hover {
+    text-decoration: none;
+}
+.colaboradores {
+    margin-top: 20px;
+    color: #000;
+}
+.colaboradores p {
+    color: #000;
+}
+.colaborador {
+    text-align: center;
+    padding: 5px;
+    border: solid 1px white;
+    margin-bottom: 20px;
+}
+.colaborador img {
+    margin-bottom: 20px;
+}
+.tituloColaboradores {
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.conoceAtodosNuestrosProfesionales {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.conoceAtodosNuestrosProfesionales a {
+    color: #FDB846;
+}
+.preFooter {
+    background-color: #FDB846;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: auto;
+}
+.preFooter h3 {
+    font-size: 17px;
+    font-family: 'KoHo', sans-serif;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.preFooter p {
+    line-height: 10px;
+    font-size: 14px;
+}
+.preFooter p a {
+    color: #FFF;
+}
+.preFooter .redes {
+    font-size: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+footer {
+    background-color: #534533;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+}
+footer h6 {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 100;
+}
+.breveHistoria {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.breveHistoria h2 {
+    color: #FDB846;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.breveHistoria p {
+    color: grey;
+    text-align: center;
+}
+.columnasAccesos {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.areaClinica h2, .capacitacion h2, .cursosDestacados h2 {
+    color: #FDB846;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding: 0;
+    font-weight: 100;
+}
+.areaClinica p, .capacitacion p, .cursosDestacados p {
+    color: grey;
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 0;
+    font-weight: 100;
+}
+.columnasAccesos a {
+    color: #FDB846;
+    font-size: 13px;
+}
+.tituloColaboradores h2 {
+    color: #76736F;
+    font-size: 25px;
+}
+.colaboradores .colaborador h2 {
+    font-size: 15px;
+    margin-top: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    font-family: 'KoHo', sans-serif;
+}
+.colaboradores .colaborador h3 {
+    font-size: 13px;
+    margin-top: 15px;
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+}
+.colaboradores .colaborador h4 {
+    font-size: 13px;
+    margin-top: 15px;
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+}
+.colaboradores a {
+    color: #FDB846;
+}
+header img {
+    height: auto;
+    width: 60%;
+}
+.navbar {
+    background-color: #FFFFFF!important;
+    font-family: 'KoHo', sans-serif;
+}
+.serviciosPag p {
+    color: #333;
+}
+.serviciosPag h2 {
+    margin-top: 60px;
+}
+.flechas {
+    color: #56A8D1;
+}
+.encorde {
+    margin-bottom: 50px;
+}
+.encorde h2 {
+    font-size: 15px;
+    color: #FDB846;
+}
+.encorde p {
+    font-size: 12px;
+    color: grey;
+}
+.encorde a {
+    color: #FDB846;
+    border-radius: 100px;
+    border: solid 1px #FDB846;
+    font-size: 13px;
+    padding: 2px 15px 2px 15px;
+    background-color: #FFF;
+}
+.encorde a:hover {
+    text-decoration: none;
+    background-color: #FDB846;
+    color: #FFF;
+}
+.serviciosPag {
+    font-family: 'KoHo', sans-serif;
+    color: #FDB846; 
+    margin-bottom: 0;
+}
+.serviciosPag p {
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.textoAreaClinica p {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 14px;
+    line-height: 25px;
+}
+.textoAreaClinica h3 {
+    color: #FDB846;
+    font-size: 20px;
+}
+.modal-body form input {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 1px #DDD;
+    border-radius: 0;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+h5 {
+    color: #FDB846;
+}
+.btnReservar {
+    border-radius: 100px;
+    border: solid 1px #FDB846;
+    background-color: #FFF;
+    color: #FDB846;
+}
+.btnCancelar {
+    border-radius: 100px;
+    border: solid 1px #FDB846;
+    background-color: #FFF;
+    color: #FDB846;
+}
+.colunmasMapa {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.mapa {
+    margin: 0;
+    padding: 0;
+}
+.titulosDestacados h2 {
+    color: #FDB846;
+    font-size: 16px;
+}
+.colunmasMapa form input {
+    border-radius: 0;   
+    border: none;
+    border-bottom: solid 1px #DDD;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+.btnSend {
+   border-radius: 100px;
+   width: 100%;
+   text-align: center;
+   border: solid 1px #FDB846;
+   color: #FDB846;
+   font-size: 14px;
+   height: 35px;
+}
+.plantel img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tituloEquipoHumano h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'KoHo', sans-serif;
+    font-size: 24px;
+    color: grey;
+}
+.columnasEquipoHumano {
+    background-color: red;
+    text-align: center;
+}
+.navbar {
+    background-color: #FCFAFA!important;
+}
+.cursos {
+    background-color: #F2F2F2;
+    padding-bottom: 70px;
+}
+
+
+/*
+
+   _____             .___.__        
+  /     \   ____   __| _/|__|____   
+ /  \ /  \_/ __ \ / __ | |  \__  \  
+/    Y    \  ___// /_/ | |  |/ __ \_
+\____|__  /\___  >____ | |__(____  /
+        \/     \/     \/         \/ 
+                           .__               
+  ________ __   ___________|__| ____   ______
+ / ____/  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+< <_|  |  |  /\  ___/|  | \/  \  ___/ \___ \ 
+ \__   |____/  \___  >__|  |__|\___  >____  >
+    |__|           \/              \/     \/ 
+
+
+*/
+
+
+@media (min-width: 320px) {
+    .psiCowork h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .psiCowork h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .colDelForm {
+        margin-bottom: 50px;
+    }
+    .heroImageEjerciciosVivenciales {
+        text-align: center;
+    }
+    .contentCentral {
+        text-align: center;
+    }
+    .heroImage {
+        background: url(../../assets/images/hero.png) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: left left;
+        height: 350px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .heroImage h2 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 414px) {
+    .heroImage h2 {
+        font-size: 25px;
+    }
+}
+@media (min-width: 1440px) {
+    .heroImage {
+        background: url(../../assets/images/hero.png) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: left left;
+        height: 650px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .heroImage h2 {
+        font-size: 30px;
+    }
+}
